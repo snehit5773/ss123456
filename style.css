@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: system-ui, -apple-system, BlinkMacSystemFont, 'segoe UI', Roboto, oxygen, ubuntu, cantarell, 'open sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.logo {
+  color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    left: 0;
+    right: 0;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.header .nav a {
+    margin-left: 100px;
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+    top: 30px;
+    
+}
+.banner {
+    background-image: url(img/bbb.jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.card {
+  padding-bottom: 20px;
+}
+.font1 {
+  color: #15b9d9;
+  font-weight: 500;
+  
+}
+.lorem{
+    
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.btn1{
+    background-color: #15b9d9;
+    width: 50%;
+    height: 20%;
+
+    
+    color: white;
+    text-align: center;
+   
+}
+
+.font3 {
+  font-size: 30px;
+  color: #15b9d9;
+}
+.font4 {
+   font-size: 60px;
+}
+.btn2 {
+  width: 30%;
+  height: 10%;
+  background-color: #15b9d9;
+  color: white;
+}
+.font5 {
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+.font6{
+   font-weight: 1000;
+}
+.btnf {
+  width: 50%;
+  margin-left: 10px;
+  background-color: #15b9d9;
+  color: white;
+  height: 40px;
+}
+.blog1 {
+  margin-left: 10px;
+}
+.blog1:hover{
+  color: #15b9d9;
+}
+.blog2 {
+  margin-left: 10px;
+}
+
